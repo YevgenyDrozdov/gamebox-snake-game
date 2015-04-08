@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <game-name>Snake</game-name>
+    <game-version>0.1</game-version>
+    <controller-class>com.epam.jmp.gamebox.games.Snake</controller-class>
+</manifest>

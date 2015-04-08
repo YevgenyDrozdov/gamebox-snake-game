@@ -1,0 +1,40 @@
+#score-box {
+    width: 598px;
+    height: 30px;
+    border: 1px solid gray;
+    position: absolute;
+
+}
+
+#score-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 230px;
+}
+
+#game-field {
+    width: 600px;
+    height: 600px;
+    top: 50px;
+    position: absolute;
+}
+
+.cell-wall {
+    position: absolute;
+    background-color: gray;
+}
+
+.cell-target {
+    position: absolute;
+    background-color: red;
+}
+
+.cell-snake-body {
+    position: absolute;
+    background-color: bisque;
+}
+
+.cell-snake-head {
+    position: absolute;
+    background-color: burlywood;
+}
