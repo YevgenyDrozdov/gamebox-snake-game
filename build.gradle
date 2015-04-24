@@ -1,0 +1,23 @@
+apply plugin: 'maven'
+apply plugin: 'war'
+
+group = 'com.epam.jmp'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+    mavenLocal()
+    maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+    compile group: 'com.epam.jmp', name: 'gamebox-api', version:'1.0-SNAPSHOT'
+    compile group: 'junit', name: 'junit', version:'4.8.1'
+}
+
+
+

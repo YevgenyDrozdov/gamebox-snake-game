@@ -3,4 +3,5 @@
     <game-name>Snake</game-name>
     <game-version>0.1</game-version>
     <controller-class>com.epam.jmp.gamebox.games.Snake</controller-class>
+    <miniature-path>miniature.png</miniature-path>
 </manifest>

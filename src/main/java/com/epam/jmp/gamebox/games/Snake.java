@@ -11,7 +11,7 @@ public class Snake implements GameController {
 
     @Override
     public void processAction(Action action, GameModel model) {
-
+        System.out.println(action.getActionId());
     }
 
     @Override
