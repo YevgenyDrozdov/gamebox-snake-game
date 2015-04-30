@@ -1,7 +1,9 @@
 package com.epam.jmp.gamebox.games;
 
 import com.epam.jmp.gamebox.*;
+import com.epam.jmp.gamebox.annotations.Controller;
 
+@Controller(gameName = "Snake1", gameVersion = "10.0")
 public class Snake implements GameController {
 
     @Override
